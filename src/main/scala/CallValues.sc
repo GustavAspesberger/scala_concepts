@@ -25,3 +25,7 @@ def callByName(t: => Long) = {
   println(s"t => $t")
   println("***** FINISHED *****")
 }
+
+callByValue(time())
+
+callByName(time())
