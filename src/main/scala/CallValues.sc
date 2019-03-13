@@ -1,3 +1,4 @@
+
 def time() = {
   System.nanoTime()
 }
